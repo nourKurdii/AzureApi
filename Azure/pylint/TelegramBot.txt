@@ -1,0 +1,7 @@
+************* Module TelegramBot
+TelegramBot.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+TelegramBot.py:1:0: C0103: Module name "TelegramBot" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.67/10 (previous run: 7.33/10, +1.33)
+

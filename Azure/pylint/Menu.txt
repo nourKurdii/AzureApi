@@ -1,0 +1,12 @@
+************* Module Menu
+Menu.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Menu.py:1:0: C0103: Module name "Menu" doesn't conform to snake_case naming style (invalid-name)
+Menu.py:55:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+Menu.py:97:8: W0702: No exception type(s) specified (bare-except)
+Menu.py:72:4: R0911: Too many return statements (7/6) (too-many-return-statements)
+Menu.py:72:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+Menu.py:100:4: R0911: Too many return statements (9/6) (too-many-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 9.21/10 (previous run: 8.78/10, +0.44)
+

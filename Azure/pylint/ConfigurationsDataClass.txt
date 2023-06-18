@@ -1,0 +1,7 @@
+************* Module ConfigurationsDataClass
+ConfigurationsDataClass.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+ConfigurationsDataClass.py:1:0: C0103: Module name "ConfigurationsDataClass" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.78/10 (previous run: 5.45/10, +2.32)
+

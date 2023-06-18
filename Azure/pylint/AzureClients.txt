@@ -1,0 +1,8 @@
+************* Module AzureClients
+AzureClients.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+AzureClients.py:1:0: C0103: Module name "AzureClients" doesn't conform to snake_case naming style (invalid-name)
+AzureClients.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 7.69/10
+

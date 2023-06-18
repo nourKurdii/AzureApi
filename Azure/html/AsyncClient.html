@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module AsyncClient</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">AsyncClient</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cuser%5Cpycharmprojects%5Ctask1%5Casyncclient.py">c:\users\user\pycharmprojects\task1\asyncclient.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="httpx.html">httpx</a><br>
+</td><td class="multicolumn"><a href="json.html">json</a><br>
+</td><td class="multicolumn"></td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="ClientInterface.html#ClientInterface">ClientInterface.ClientInterface</a>(<a href="abc.html#ABC">abc.ABC</a>)
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="AsyncClient.html#AsyncClient">AsyncClient</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="AsyncClient">class <strong>AsyncClient</strong></a>(<a href="ClientInterface.html#ClientInterface">ClientInterface.ClientInterface</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#AsyncClient">AsyncClient</a>(bot)<br>
+&nbsp;<br>
+class&nbsp;for&nbsp;async&nbsp;client&nbsp;derived&nbsp;from&nbsp;client&nbsp;interface<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="AsyncClient.html#AsyncClient">AsyncClient</a></dd>
+<dd><a href="ClientInterface.html#ClientInterface">ClientInterface.ClientInterface</a></dd>
+<dd><a href="abc.html#ABC">abc.ABC</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AsyncClient-__init__"><strong>__init__</strong></a>(self, bot)</dt><dd><span class="code">creating&nbsp;configuration&nbsp;object&nbsp;and&nbsp;setting&nbsp;the&nbsp;headers&nbsp;value</span></dd></dl>
+
+<dl><dt>async <a name="AsyncClient-check_response"><strong>check_response</strong></a>(self, msg, response)</dt><dd><span class="code">according&nbsp;to&nbsp;the&nbsp;requests'&nbsp;response&nbsp;store&nbsp;the&nbsp;response&nbsp;in&nbsp;the&nbsp;right&nbsp;dataclass</span></dd></dl>
+
+<dl><dt>async <a name="AsyncClient-create_item"><strong>create_item</strong></a>(self, project_id, item_name, item_type)</dt><dd><span class="code">create&nbsp;a&nbsp;project&nbsp;item&nbsp;for&nbsp;specific&nbsp;project&nbsp;by&nbsp;its&nbsp;name&nbsp;or&nbsp;id</span></dd></dl>
+
+<dl><dt>async <a name="AsyncClient-create_project"><strong>create_project</strong></a>(self, name, description)</dt><dd><span class="code">create&nbsp;a&nbsp;new&nbsp;project</span></dd></dl>
+
+<dl><dt>async <a name="AsyncClient-delete_item"><strong>delete_item</strong></a>(self, project_id, item_id)</dt><dd><span class="code">delete&nbsp;projects'&nbsp;specific&nbsp;item</span></dd></dl>
+
+<dl><dt>async <a name="AsyncClient-delete_project"><strong>delete_project</strong></a>(self, project_id)</dt><dd><span class="code">delete&nbsp;specific&nbsp;project&nbsp;by&nbsp;its&nbsp;id</span></dd></dl>
+
+<dl><dt>async <a name="AsyncClient-get_item"><strong>get_item</strong></a>(self, project_id, item_id)</dt><dd><span class="code">get&nbsp;projects'&nbsp;specific&nbsp;item</span></dd></dl>
+
+<dl><dt>async <a name="AsyncClient-list_items"><strong>list_items</strong></a>(self, project_id, items_ids)</dt><dd><span class="code">get&nbsp;list&nbsp;of&nbsp;specific&nbsp;projects'&nbsp;items&nbsp;by&nbsp;their&nbsp;ids</span></dd></dl>
+
+<dl><dt>async <a name="AsyncClient-list_projects"><strong>list_projects</strong></a>(self)</dt><dd><span class="code">get&nbsp;list&nbsp;of&nbsp;the&nbsp;available&nbsp;projects</span></dd></dl>
+
+<dl><dt>async <a name="AsyncClient-update_item"><strong>update_item</strong></a>(self, project_id, item_id, description)</dt><dd><span class="code">update&nbsp;specific&nbsp;projects'&nbsp;item</span></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset()</dl>
+
+<hr>
+Data descriptors inherited from <a href="ClientInterface.html#ClientInterface">ClientInterface.ClientInterface</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+<hr>
+Data and other attributes inherited from <a href="ClientInterface.html#ClientInterface">ClientInterface.ClientInterface</a>:<br>
+<dl><dt><strong>headers</strong> = None</dl>
+
+<dl><dt><strong>patch_headers</strong> = None</dl>
+
+</td></tr></table></td></tr></table>
+</body></html>

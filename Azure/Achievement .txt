@@ -1,0 +1,20 @@
+1. learn about pythons' virtual environments and create one
+- learn about azure and how to call Azure REST APIs
+- learn the right way to write configuration files and read them 
+- generate pat from azure and how to encrypt it using base64
+- learn about http protocol and httpx sync client
+- send httpx requests with different methods (Post,Get,Delete,Patch)
+2. learn about python oop and use oop concepts to structure the classes in a right way
+which included learning about ABC module and abstact classes and methods in python
+- learn how to derive a class in python
+- learn the difference between coroutines and routines 
+- learn about httpx async client and asyncio library which included learning
+how to run async methods
+3. learn about factory design pattern in python and implement client factory which create different client objects according to their type
+4. learn how to create telegram bot 
+5. learn about pythons' dataclasses and how to use them
+6. learn how to implement decorator in python 
+7. learn about unit testing process and how to write tests for functions using pytest tool
+8. learn about pytest fixtures and how to use them 
+9. documenting the code and generating html document file using PyDoc
+10. write almost a clean code and use pylint to ensure that

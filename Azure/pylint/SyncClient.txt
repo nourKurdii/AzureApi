@@ -1,0 +1,21 @@
+************* Module SyncClient
+SyncClient.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+SyncClient.py:1:0: C0103: Module name "SyncClient" doesn't conform to snake_case naming style (invalid-name)
+SyncClient.py:25:12: W0612: Unused variable 'success_response' (unused-variable)
+SyncClient.py:33:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+SyncClient.py:59:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+SyncClient.py:66:16: W0612: Unused variable 'success_response' (unused-variable)
+SyncClient.py:81:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+SyncClient.py:96:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+SyncClient.py:118:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+SyncClient.py:125:16: W0612: Unused variable 'success_response' (unused-variable)
+SyncClient.py:138:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+SyncClient.py:161:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+SyncClient.py:168:16: W0612: Unused variable 'success_response' (unused-variable)
+SyncClient.py:170:16: W0612: Unused variable 'error_response' (unused-variable)
+SyncClient.py:178:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+SyncClient.py:2:0: C0411: standard import "import json" should be placed before "import httpx" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 8.37/10 (previous run: 8.06/10, +0.31)
+

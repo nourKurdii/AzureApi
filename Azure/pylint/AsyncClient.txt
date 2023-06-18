@@ -1,0 +1,22 @@
+************* Module AsyncClient
+AsyncClient.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+AsyncClient.py:1:0: C0103: Module name "AsyncClient" doesn't conform to snake_case naming style (invalid-name)
+AsyncClient.py:15:4: W0236: Method 'check_response' was expected to be 'non-async', found it instead as 'async' (invalid-overridden-method)
+AsyncClient.py:23:12: W0612: Unused variable 'success_response' (unused-variable)
+AsyncClient.py:32:4: W0236: Method 'create_project' was expected to be 'non-async', found it instead as 'async' (invalid-overridden-method)
+AsyncClient.py:56:4: W0236: Method 'list_projects' was expected to be 'non-async', found it instead as 'async' (invalid-overridden-method)
+AsyncClient.py:64:16: W0612: Unused variable 'success_response' (unused-variable)
+AsyncClient.py:76:4: W0236: Method 'delete_project' was expected to be 'non-async', found it instead as 'async' (invalid-overridden-method)
+AsyncClient.py:90:4: W0236: Method 'create_item' was expected to be 'non-async', found it instead as 'async' (invalid-overridden-method)
+AsyncClient.py:112:4: W0236: Method 'list_items' was expected to be 'non-async', found it instead as 'async' (invalid-overridden-method)
+AsyncClient.py:120:16: W0612: Unused variable 'success_response' (unused-variable)
+AsyncClient.py:132:4: W0236: Method 'update_item' was expected to be 'non-async', found it instead as 'async' (invalid-overridden-method)
+AsyncClient.py:148:18: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+AsyncClient.py:154:4: W0236: Method 'get_item' was expected to be 'non-async', found it instead as 'async' (invalid-overridden-method)
+AsyncClient.py:163:16: W0612: Unused variable 'success_response' (unused-variable)
+AsyncClient.py:165:16: W0612: Unused variable 'error_response' (unused-variable)
+AsyncClient.py:172:4: W0236: Method 'delete_item' was expected to be 'non-async', found it instead as 'async' (invalid-overridden-method)
+
+------------------------------------------------------------------
+Your code has been rated at 8.09/10 (previous run: 7.87/10, +0.22)
+
